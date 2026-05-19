@@ -25,14 +25,14 @@ Kobuki 12 V aux out → step-down → Pi 5 USB-C. Do not draw Pi power from the 
 
 Work through the docs in order:
 
-1. [Hardware assembly and wiring](docs/01-hardware.md)
+1. Hardware assembly and wiring _(to be updated)_
 2. [Pi 5: Ubuntu 24.04 install + ROS 2 Jazzy](docs/02-pi5-setup.md)
-3. [Kobuki: build the ROS 2 workspace](docs/03-kobuki.md)
-4. [Sensors: RPLidar + Orbbec Astra](docs/04-sensors.md)
-5. [First drive: teleop and basic verification](docs/05-first-drive.md)
-6. [Deep learning on Pi 5: realistic options](docs/06-deep-learning.md)
-7. [Troubleshooting](docs/07-troubleshooting.md)
-8. [Remote access (optional): Tailscale + NoMachine](docs/08-remote-access.md)
+3. Kobuki: build the ROS 2 workspace _(to be updated)_
+4. Sensors: RPLidar + Orbbec Astra _(to be updated)_
+5. First drive: teleop and basic verification _(to be updated)_
+6. Deep learning on Pi 5: realistic options _(to be updated)_
+7. Troubleshooting _(to be updated)_
+8. Remote access (optional): Tailscale + NoMachine _(to be updated)_
 
 ---
 
