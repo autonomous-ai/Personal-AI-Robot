@@ -1,5 +1,7 @@
 # Autonomous Deep Learning Robot
 
+![Hacky — Personal AI Robot](photos/banner.jpg)
+
 A from-scratch build of a Kobuki-based mobile robot running ROS 2 Jazzy on a Raspberry Pi 5, with a 2D lidar and an Orbbec Astra depth camera. The repo collects the hardware notes, setup docs, and deep-learning experiments needed to take the platform from "box of parts" to autonomously driving around a room.
 
 ---
