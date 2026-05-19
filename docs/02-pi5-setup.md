@@ -8,7 +8,7 @@
 3. Insert the microSD into the workstation.
 4. In Imager: **Choose device → Raspberry Pi 5**, **Choose OS → Use custom**, pick the downloaded `.img.xz`, **Choose storage → the microSD**.
 5. Click the gear / "Edit settings" before writing. Set:
-   - Hostname (e.g. `dlr-pi`)
+   - Hostname (e.g. `hacky-pi`)
    - Username + password (do not use `ubuntu` / `ubuntu`)
    - WiFi SSID + password + country
    - SSH enabled, password auth (or paste your public key)
