@@ -9,15 +9,16 @@ A from-scratch build of a Kobuki-based mobile robot running ROS 2 Jazzy on a Ras
 ## System architecture
 
 ```
-[Kobuki base] ──USB-A↔B──┐
-                          │
-[RPLidar]    ──USB-A─────┤
-                          ├──→ [Powered USB hub] ──USB-C──→ [Raspberry Pi 5]
-[Orbbec Astra] ──USB-A───┘                                       │
-                                                                  │ WiFi
-                                                                  ▼
-                                                          [Workstation w/ rviz2]
+[Kobuki base]   ──USB-A↔B──┐
+                            │
+[RPLidar]       ──USB-A─────┼──→ [Raspberry Pi 5]
+                            │           │
+[Orbbec Astra]  ──USB-A─────┘           │ WiFi
+                                         ▼
+                                 [Workstation w/ rviz2]
 ```
+
+Pi 5 has 4 USB ports, enough to host Kobuki + RPLidar + Astra directly. The powered USB hub listed in the BOM is **optional** — useful for bench debugging when devices are spread out, not required for the on-robot configuration.
 
 Kobuki 12 V aux out → step-down → Pi 5 USB-C. Do not draw Pi power from the Kobuki USB-B port; it cannot supply 5 A.
 
@@ -50,7 +51,7 @@ Then work through the docs in order:
 
 Full parts list with quantities, categories, and photos: **[docs/bom.md](docs/bom.md)**.
 
-Headline items: Kobuki mobile base, Raspberry Pi 5 (8 GB), Slamtec RPLidar, Orbbec Astra depth camera, powered USB 3.0 hub, 12 V → 5 V/5 A USB-C PD step-down.
+Headline items: Kobuki mobile base, Raspberry Pi 5 (8 GB), Slamtec RPLidar, Orbbec Astra depth camera, 12 V → 5 V/5 A USB-C PD step-down. (Powered USB 3.0 hub is listed but optional — debug only.)
 
 ---
 
