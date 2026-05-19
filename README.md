@@ -18,7 +18,6 @@ A from-scratch build of a Kobuki-based mobile robot running ROS 2 Jazzy on a Ras
                                  [Workstation w/ rviz2]
 ```
 
-Pi 5 has 4 USB ports, enough to host Kobuki + RPLidar + Astra directly. The powered USB hub listed in the BOM is **optional** — useful for bench debugging when devices are spread out, not required for the on-robot configuration.
 
 Kobuki 12 V aux out → step-down → Pi 5 USB-C. Do not draw Pi power from the Kobuki USB-B port; it cannot supply 5 A.
 
