@@ -28,7 +28,7 @@ Kobuki 12 V aux out → step-down → Pi 5 USB-C. Do not draw Pi power from the 
 Clone with submodules so the Kobuki / sensor driver sources land in `external/`:
 
 ```bash
-git clone --recurse-submodules https://github.com/autonomous-ai/hacky-robotics-devkit
+git clone --recurse-submodules https://github.com/autonomous-ai/Personal-AI-Robot
 # or, if you already cloned without --recurse-submodules:
 git submodule update --init --recursive
 ```
