@@ -22,3 +22,11 @@
 	path = external/kobuki_ros_interfaces
 	url = https://github.com/kobuki-base/kobuki_ros_interfaces
 	branch = devel
+[submodule "external/rplidar_ros"]
+	path = external/rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros
+	branch = ros2
+[submodule "external/OrbbecSDK_ROS2"]
+	path = external/OrbbecSDK_ROS2
+	url = https://github.com/orbbec/OrbbecSDK_ROS2
+	branch = v2-main
