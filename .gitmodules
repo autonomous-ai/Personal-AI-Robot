@@ -1,0 +1,24 @@
+[submodule "external/ecl_lite"]
+	path = external/ecl_lite
+	url = https://github.com/stonier/ecl_lite
+	branch = devel
+[submodule "external/ecl_tools"]
+	path = external/ecl_tools
+	url = https://github.com/stonier/ecl_tools
+	branch = devel
+[submodule "external/ecl_core"]
+	path = external/ecl_core
+	url = https://github.com/stonier/ecl_core
+	branch = devel
+[submodule "external/kobuki_core"]
+	path = external/kobuki_core
+	url = https://github.com/kobuki-base/kobuki_core
+	branch = devel
+[submodule "external/kobuki_ros"]
+	path = external/kobuki_ros
+	url = https://github.com/kobuki-base/kobuki_ros
+	branch = devel
+[submodule "external/kobuki_ros_interfaces"]
+	path = external/kobuki_ros_interfaces
+	url = https://github.com/kobuki-base/kobuki_ros_interfaces
+	branch = devel
