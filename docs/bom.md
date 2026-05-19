@@ -1,7 +1,7 @@
 |No|Item|Qty|Category|Photo|Notes|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |1|Kobuki mobile base|1|Base|![](../Photos/Material/base.jpg)||
-|2|Kobuki docking station + power supply|1|Power Supply|||
+|2|Kobuki docking station + power supply|1|Power Supply|![](../Photos/Material/power_supply_dock.jpg)<br>![](../Photos/Material/power_charger.jpg)|Recharging adapter — Input: 100–240 V AC, 50/60 Hz, 1.5 A max; Output: 19 V DC, 3.16 A|
 |3|Raspberry Pi5|1|Mainboard|![](../Photos/Material/pi5.jpg)|8 GB recommended|
 |4|Raspberry Pi Active Cooler|1|Cooling|||
 |5|Raspberry Pi 27 W USB-C PD power supply|1|Cable||for desk use; on-robot power comes from Kobuki|
