@@ -6,9 +6,9 @@
 |4|Raspberry Pi Active Cooler|1|Cooling|||
 |5|Raspberry Pi 27 W USB-C PD power supply|1|Cable||for desk use; on-robot power comes from Kobuki|
 |6|Micro SD card: 64GB|1|Storage|||
-|7|Slamtec RPLidar|8|Lidar|![](../photos/material/rplidar.jpg)|C1 / A1 / A2 — any 2D USB lidar|
+|7|Slamtec RPLidar|1|Lidar|![](../photos/material/rplidar.jpg)|C1 / A1 / A2 — any 2D USB lidar|
 |8|Orbbec Astra depth camera|1|3D Camera|![](../photos/material/depth_cam.jpg)|or replace with Intel RealSense / Orbbec Gemini if Astra unavailable|
-|9|Powered USB hub|4|USB Hub|||USB 3.0, externally powered — Pi 5's USB ports do not deliver enough sustained current for camera + lidar + Kobuki together|
+|9|Powered USB hub|1|USB Hub|||USB 3.0, externally powered — Pi 5's USB ports do not deliver enough sustained current for camera + lidar + Kobuki together|
 |10|USB-C step-down regulator: 12V to 5V/5A USB-C PD trigger|1|Cable|![](../photos/material/dc_dc_stepdown.jpg)|to power the Pi from the Kobuki|
 |11|Ethernet cable|1|Cable|||
 |12|USB type A → type B cable|1|Cable||Kobuki control + power passthrough|
