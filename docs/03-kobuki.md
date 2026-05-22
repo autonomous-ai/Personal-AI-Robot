@@ -92,6 +92,16 @@ ros2 topic echo /battery_state --once
 
 You should see a wheel-drop message and a battery voltage around 16.7 V (fully charged). If `ros2 topic list` is empty, check that `ROS_DOMAIN_ID` matches what you set in [02](02-pi5-setup.md#shell-setup).
 
+## References & lineage
+
+The Kobuki driver stack has changed hands a few times. The submodules under `external/` track the [kobuki-base](https://github.com/kobuki-base) org (Daniel Stonier et al.), which is the actively maintained ROS 2 line and what this repo builds against. The other forks are useful when chasing history, firmware quirks, or alternative ROS 2 ports:
+
+| Repo | Role | When to look here |
+|---|---|---|
+| [yujinrobot/kobuki](https://github.com/yujinrobot/kobuki) | Original Yujin Robot upstream (ROS 1) | Firmware-level questions, original hardware docs, legacy ROS 1 driver |
+| [kobuki-base](https://github.com/kobuki-base) | ROS 2 port — what we build from | Source of `kobuki_core`, `kobuki_ros`, `kobuki_ros_interfaces` submodules |
+| [IntelligentRoboticsLabs/kobuki](https://github.com/IntelligentRoboticsLabs/kobuki) | Alternative ROS 2 fork (Univ. Rey Juan Carlos) | Cross-checking patches, alt launch files, classroom-tested configs |
+
 ## Next
 
 → [04 — Sensors: RPLidar + Orbbec Astra](04-sensors.md)

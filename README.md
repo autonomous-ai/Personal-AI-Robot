@@ -62,5 +62,7 @@ Tested on: Raspberry Pi 5 (8 GB), Ubuntu 24.04.3 LTS arm64, ROS 2 Jazzy Jalopy, 
 
 ## Credits
 
-- kobuki-base maintainers — keeping the Kobuki stack alive on ROS 2
+- [kobuki-base](https://github.com/kobuki-base) maintainers — keeping the Kobuki stack alive on ROS 2 (source of the `external/kobuki_*` submodules)
+- [Yujin Robot](https://github.com/yujinrobot/kobuki) — original Kobuki hardware and ROS 1 driver
+- [IntelligentRoboticsLabs/kobuki](https://github.com/IntelligentRoboticsLabs/kobuki) — alternative ROS 2 fork worth cross-referencing
 - Slamtec, Orbbec — driver SDKs
