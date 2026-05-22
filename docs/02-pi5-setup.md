@@ -1,9 +1,15 @@
 # 02 — Raspberry Pi 5: Ubuntu 24.04 + ROS 2 Jazzy
 
+Two phases: flash Ubuntu onto the microSD and bring the Pi up; then install ROS 2 Jazzy and verify a talker/listener pair. Allow ~45 min end-to-end on a fast network.
+
+Video walkthroughs (optional, third-party):
+- Flash Ubuntu via Raspberry Pi Imager: <https://www.youtube.com/watch?v=cHs_5bb9e7M>
+- ROS 2 install on Ubuntu (jump to 5:09 for the apt steps): <https://youtu.be/08o46x5SfJM?t=309>
+
 ## Flash Ubuntu 24.04 to the microSD card
 
 1. Install Raspberry Pi Imager on the workstation: <https://www.raspberrypi.com/software/>
-2. Download Ubuntu Desktop 24.04 LTS for arm64 (Raspberry Pi): <https://ubuntu.com/download/raspberry-pi>
+2. Download Ubuntu Desktop 24.04 LTS for arm64 (Raspberry Pi): <https://ubuntu.com/download/raspberry-pi> (direct link to 24.04.3 desktop arm64: <https://ubuntu.com/download/raspberry-pi/thank-you?version=24.04.3&architecture=desktop-arm64+raspi>)
    - Server image is fine if you do not need a local desktop; it boots faster and uses less RAM.
 3. Insert the microSD into the workstation.
 4. In Imager: **Choose device → Raspberry Pi 5**, **Choose OS → Use custom**, pick the downloaded `.img.xz`, **Choose storage → the microSD**.

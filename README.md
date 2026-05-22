@@ -4,6 +4,8 @@
 
 A from-scratch build of a Kobuki-based mobile robot running ROS 2 Jazzy on a Raspberry Pi 5, with a 2D lidar and an Orbbec Astra depth camera. The repo collects the hardware notes, setup docs, and deep-learning experiments needed to take the platform from "box of parts" to autonomously driving around a room.
 
+The `external/` directory holds every upstream package as a pinned git submodule, so the build is reproducible end-to-end without chasing apt repos or random GitHub forks.
+
 ---
 
 ## System architecture
@@ -38,11 +40,15 @@ Then work through the docs in order:
 1. Hardware assembly and wiring _(to be updated)_
 2. [Pi 5: Ubuntu 24.04 install + ROS 2 Jazzy](docs/02-pi5-setup.md)
 3. [Kobuki: build the ROS 2 workspace](docs/03-kobuki.md)
-4. [Sensors: RPLidar + Orbbec Astra](docs/04-sensors.md)
-5. First drive: teleop and basic verification _(to be updated)_
-6. Deep learning on Pi 5: realistic options _(to be updated)_
-7. Troubleshooting _(to be updated)_
-8. Remote access (optional): Tailscale + NoMachine _(to be updated)_
+4. [RPLidar driver](docs/04-rplidar.md)
+5. [Orbbec Astra depth camera](docs/05-orbbec-astra.md)
+6. First drive: teleop and basic verification _(to be updated)_
+7. Deep learning on Pi 5: realistic options _(to be updated)_
+8. Troubleshooting _(to be updated)_
+
+Optional add-ons:
+
+- [Remote access: Tailscale + NoMachine](docs/optional/remote-access.md)
 
 ---
 

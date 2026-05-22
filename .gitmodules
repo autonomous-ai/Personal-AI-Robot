@@ -30,3 +30,15 @@
 	path = external/OrbbecSDK_ROS2
 	url = https://github.com/orbbec/OrbbecSDK_ROS2
 	branch = v2-main
+[submodule "external/cmd_vel_mux"]
+	path = external/cmd_vel_mux
+	url = https://github.com/kobuki-base/cmd_vel_mux
+	branch = devel
+[submodule "external/kobuki_velocity_smoother"]
+	path = external/kobuki_velocity_smoother
+	url = https://github.com/kobuki-base/kobuki_velocity_smoother
+	branch = devel
+[submodule "external/sophus"]
+	path = external/sophus
+	url = https://github.com/stonier/sophus
+	branch = release/1.2.x
