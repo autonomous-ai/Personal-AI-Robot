@@ -25,7 +25,7 @@ Some Kobuki kits also ship a small Bluetooth speaker. It is not in this build's 
 
 ## Assembly
 
-Yujin's original IKEA-style picture-only instructions still cover the frame correctly. Working from the bottom up:
+Yujin’s original modular build guide , working from the bottom up:
 
 1. **Plate 1 (on the Kobuki):** struts in, Pi 5 mounted on M2.5 standoffs. Leave clearance around the Active Cooler intake. ([photo](../photos/assembly/13.jpg))
 2. **Plate 2 (middle):** carries the RPLidar. The lidar's mounting screws use the perforated grid on the plate — center it on the robot's forward axis so `laser_link → base_link` doesn't need a yaw offset.
