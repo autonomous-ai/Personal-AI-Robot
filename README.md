@@ -37,7 +37,7 @@ git submodule update --init --recursive
 
 Then work through the docs in order:
 
-1. Hardware assembly and wiring _(to be updated)_
+1. [Hardware assembly and wiring](docs/01-hardware.md)
 2. [Pi 5: Ubuntu 24.04 install + ROS 2 Jazzy](docs/02-pi5-setup.md)
 3. [Kobuki: build the ROS 2 workspace](docs/03-kobuki.md)
 4. [RPLidar driver](docs/04-rplidar.md)

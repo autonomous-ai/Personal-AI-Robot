@@ -72,7 +72,7 @@ source ~/.bashrc
 Without this, every reboot the Kobuki shows up at a different `/dev/ttyUSB*` and `kobuki_ros` refuses to start.
 
 ```bash
-sudo cp ~/ws/src/kobuki_ros/60-kobuki.rules /etc/udev/rules.d/
+sudo cp ~/ws/src/kobuki_core/60-kobuki.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
